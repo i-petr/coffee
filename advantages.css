@@ -1,0 +1,90 @@
+:root {
+    --coffee-color: #442d25;
+    --coffee-color2: #a68371;
+}
+
+.advantages {
+    background-image: linear-gradient(90deg, var(--coffee-color), var(--coffee-color2) 15%, var(--coffee-color2) 85%, var(--coffee-color));
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.advantages li img {
+    width: 120px;
+}
+
+.advantages li img[alt="price"] {
+    width: 100px;
+}
+
+.advantages li img[alt="delivery"] {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.advantages li img[alt="coffee"] {
+    margin-left: 20px;
+}
+
+.advantages p {
+    text-indent: 15px;
+    text-align: justify;
+    width: 250px;
+    margin-left: -39px;
+}
+
+
+.advantages ul {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .advantages li {
+    margin-right: 100px;
+    margin-left: 100px;
+    list-style-type: none;
+ }
+
+ .advantages h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color:rgb(70, 220, 59);
+ }
+
+ @media (min-width: 768px) {
+
+    .advantages {
+        background-image: linear-gradient(90deg, var(--coffee-color), var(--coffee-color2) 25%, var(--coffee-color2) 75%, var(--coffee-color));
+        height: 100vh;
+        text-align: center;
+    }
+    
+    .advantages p {
+        width: 250px;
+        text-align: justify;
+        text-indent: 15px;
+    }
+    
+    .advantages ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        align-items: baseline;
+        justify-content: center;
+     }
+    
+     .advantages li {
+        list-style-type: none;
+     }
+    
+     .advantages h2 {
+        text-align: center;
+        font-size: 2em;
+     }
+
+ }
+ 
