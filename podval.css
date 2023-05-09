@@ -1,0 +1,32 @@
+.podval {
+    background-color: indigo;
+}
+
+.podval ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.podval ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .podval ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+        list-style-type: none;
+    }
+}
