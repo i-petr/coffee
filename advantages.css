@@ -6,7 +6,7 @@
 .advantages {
     background-image: linear-gradient(90deg, var(--coffee-color), var(--coffee-color2) 15%, var(--coffee-color2) 85%, var(--coffee-color));
     height: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -74,7 +74,7 @@
         margin: 0;
         padding: 0;
         align-items: baseline;
-        justify-content: center;
+        justify-content: space-evenly;
      }
     
      .advantages li {

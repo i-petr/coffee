@@ -12,9 +12,9 @@
         <div class="block-hero">
             <img src="https://dpru.obs.ru-moscow-1.hc.sbercloud.ru/images/article/2022/03/21/fbe7ee20-f75b-4954-bffa-5e9a168a8564_F.jpg" alt="coffee"/>
             <h1>Быстрая доставка кофе!</h1>
-            <a href="">Заказать!</a>
+            <a href="#zakaz">Заказать!</a>
         </div>
-        <div class="advantages">
+        <div class="advantages" id="id_advantages">
             <h2>Уникальное предложение</h2>
             <ul>
                 <li>
@@ -56,5 +56,22 @@
                     </li>
                 </ul>
             </footer>
+            <div class="modal" id="zakaz">
+                <div class="content">
+                    <h2>Введите ваши данные</h2>
+                    <p>Ваше имя:</p>
+                    <input type="text" placeholder="Имя" value=""/>
+                    <p>Ваш номер телефона:</p>
+                    <input type="text" placeholder="+7" value=""/>
+                    <a href="#spasibo">Заказать!</a>
+                    <a href="#id_advantages">Отмена</a>
+                </div>
+            </div>
+            <div class="modal2" id="spasibo">
+                <div class="content2">
+                    <h2>Спасибо за заказ!</h2>
+                    <a href="#id_advantages">Закрыть</a>
+                </div>
+            </div>
     </body>
 </html>
